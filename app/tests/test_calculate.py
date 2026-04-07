@@ -236,7 +236,7 @@ class TestCalculatorComMock:
 
 
 # ========================================================================
-# 📚 RESUMO: UTILIDADES PRÁTICAS DO MOCK NESTE PROJETO
+# RESUMO: UTILIDADES PRÁTICAS DO MOCK NESTE PROJETO
 # ========================================================================
 """
 O MOCK é uma ferramenta poderosa para testes. Aqui estão as UTILIDADES PRÁTICAS:
