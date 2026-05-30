@@ -329,13 +329,3 @@ RESUMO DAS TÉCNICAS USADAS NO PROJETO:
   └─ Força lançar exceção
 
 """
-def test_criar_operacao_com_mock_repository(self):
-    mock_repo = Mock()
-    mock_repo.salvar.return_value = Operation(id=1)
-    
-    # Testa sua lógica SEM tocar no BD real
-    servico = OperationService(mock_repo)
-    resultado = servico.criar_operacao(dados)
-    
-    assert resultado.id == 1
-    mock_repo.salvar.assert_called_once() 
